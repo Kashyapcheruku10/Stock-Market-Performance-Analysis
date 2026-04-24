@@ -15,11 +15,17 @@ An end-to-end data analysis project analyzing **5 major US tech stocks** (AAPL, 
 
     Tools              Purpose 
  Python (yfinance):  Fetch real stock data from Yahoo Finance 
- Pandas         :   Data Cleaning and Transformation 
+ 
+ Pandas        :   Data Cleaning and Transformation 
+ 
  SQL Server (SSMS):  Store and query structured stock data
+ 
  Matplotlib & Seaborn: Static visualizations
- Plotly  : Interactive charts
+ 
+ Plotly : Interactive charts
+ 
  Jupyter Notebook: Analysis environment
+ 
  
 
 ## Key Analysis
