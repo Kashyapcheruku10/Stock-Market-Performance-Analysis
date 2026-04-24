@@ -1,16 +1,3 @@
-USE StockMarketDB;
-CREATE TABLE stock_prices (
-    id          INT IDENTITY(1,1) PRIMARY KEY,  
-    ticker      VARCHAR(10),                     
-    trade_date  DATE,                            
-    open_price  FLOAT,                           
-    high_price  FLOAT,                           
-    low_price   FLOAT,                           
-    close_price FLOAT,                           
-    volume      BIGINT                           
-);
-
-
 SELECT 
     ticker,
     COUNT(*) AS total_trading_days,
