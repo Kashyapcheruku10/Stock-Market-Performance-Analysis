@@ -9,20 +9,20 @@ An end-to-end data analysis project analyzing **5 major US tech stocks** (AAPL, 
 
 ## Problem Statement
 
-> Which stocks offered the best return, the least risk, and the most efficient risk-adjusted performance  and what trading signals emerged over these 2 years?
+> Which stocks offered the best return, the least risk, and the most efficient risk-adjusted performance, and what trading signals emerged over these 2 years?
 
 ## Tools & Technologies
 
-    Tools                                        Purpose 
- Python (yfinance)               Fetch real stock data from Yahoo Finance 
- Pandas                          Data Cleaning and Transformation 
- SQL Server (SSMS)               Store and query structured stock data
- Matplotlib & Seaborn            Static visualizations
- Plotly                          Interactive charts
- Jupyter Notebook                Analysis environment
+    Tools              Purpose 
+ Python (yfinance):  Fetch real stock data from Yahoo Finance 
+ Pandas         :   Data Cleaning and Transformation 
+ SQL Server (SSMS):  Store and query structured stock data
+ Matplotlib & Seaborn: Static visualizations
+ Plotly  : Interactive charts
+ Jupyter Notebook: Analysis environment
  
 
-## Key Analyses
+## Key Analysis
 
 - **Overall return comparison** — which stock grew the most over 2 years
 - **Monthly price trend analysis** — seasonality and crash patterns
@@ -39,25 +39,18 @@ An end-to-end data analysis project analyzing **5 major US tech stocks** (AAPL, 
  #  Insight 
 
 | 1 | MSFT was the best performer with +22.46% cumulative return over 2 years 
+
 | 2 | TSLA was 3.3x more volatile than GOOGL ($11.51 vs $2.93 avg daily swing) yet delivered only +1.05% return
+
 | 3 | AAPL offered the best risk-adjusted return — lowest risk score (1.85) with +18.37% return
+
 | 4 | A Golden Cross signal was detected in AAPL on March 23, 2023 — a classic bullish indicator
+
 | 5 | AAPL and MSFT had the highest correlation (0.72), driven by shared macro factors
+
 | 6 | TSLA dominated top volume days — 306.59M shares traded on Jan 27, 2023
+
 | 7 | AMZN showed the sharpest recovery — rising from $82.87 low to $154.40 (+86.32% range)
-
-## Visuals
-
-> Add your chart screenshots below after running the notebook
-
-             Chart                                            Description 
-
- ![Price Trend](visuals/price_trend.png)                Closing price trend for all 5 stocks 
- ![Heatmap](visuals/heatmap.png)                        Monthly average price heatmap
- ![Volatility](visuals/volatility.png)                  Average daily price swing per stock
- ![MA Crossover](visuals/moving_avg_crossover.png)      AAPL Golden Cross detection
- ![Risk Return](visuals/risk_vs_return.png)             Risk vs return scatter plot
- ![Correlation](visuals/correlation_heatmap.png)        Pearson correlation matrix
 
 
 ## How to Run
